@@ -152,7 +152,10 @@ class _AddNoteState extends State<AddNote> {
   }
 
   getPriorityWidget() {
-    TextStyle textStyle = Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: 14);
+    TextStyle textStyle = Theme.of(context)
+        .textTheme
+        .bodyText1!
+        .copyWith(fontSize: 14, color: GetColors.black);
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
