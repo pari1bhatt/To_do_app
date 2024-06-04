@@ -1,4 +1,6 @@
 # To_do_app
+
+Simple To do app built in Flutter.
  
  Initial Page
  
